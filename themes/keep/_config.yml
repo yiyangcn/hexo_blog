@@ -2,9 +2,9 @@
 #  Your basic info
 # ---------------------------------------------------------------------------------------
 base_info:
-  title: Keep Theme
-  author: Keep Team
-  url: https://keep.xpoet.cn/
+  title: Neurocyber
+  author: Neurocyber
+  url: http://localhost:4000/
   # Logo image (You can use local image, image external link or don’t fill)
   logo_img:
 
@@ -14,7 +14,7 @@ base_info:
 # ---------------------------------------------------------------------------------------
 style:
   # Theme primary color
-  primary_color: '#0066CC'
+  primary_color: '#99CCFF'
 
   # Avatar (You can use local image or image external link)
   avatar: /images/avatar.svg
@@ -72,11 +72,11 @@ social_contact:
 menu:
   Home: /
   Archives: /archives
-  # Categories: /categories
-  # Tags: /tags
-  # Links: /links
-  # About: /about
-  # Changelog: /changelog
+  Categories: /categories
+  Tags: /tags
+  #Links: /links
+  About: /about
+  #Changelog: /changelog
   # ......
 
 
@@ -100,13 +100,13 @@ post:
   # Dependencies: hexo-wordcount (npm install hexo-wordcount)
   # See: https://github.com/willin/hexo-wordcount
   word_count:
-    enable: false
-    wordcount: false  # word count, one article
+    enable: true
+    wordcount: true  # word count, one article
     min2read: false   # time to read, one article
 
   # Author label
   author_label:
-    enable: true
+    enable: false
     auto: true  # if true, show Lv1, Lv2, Lv3... , If false, show custom label
     # label array item can be one or more
     custom_label_list: [ "Trainee", "Engineer", "Architect", "CTO", "BOSS" ]
@@ -124,16 +124,16 @@ code_copy:
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
-  number: false
+  number: true
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false
+  expand_all: true
 
   # If true, open TOC every time when you enter the article page
-  init_open: false
+  init_open: true
 
 
 # ---------------------------------------------------------------------------------------
@@ -162,7 +162,7 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: false
+  enable: true
   preload: false     # Preload the search data when the page loads
 
 
